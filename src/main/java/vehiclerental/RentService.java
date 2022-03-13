@@ -51,8 +51,4 @@ public class RentService {
             throw new IllegalStateException("Rentable not found!");
         }
     }
-
-    public static void main(String[] args) {
-        System.out.println(LocalTime.of(3, 0).isAfter(LocalTime.of(3, 0)));
-    }
 }
